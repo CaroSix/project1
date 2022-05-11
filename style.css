@@ -19,7 +19,45 @@ body{
 
 .nav-item{
     padding:6px;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
     text-decoration: none;
     color: white;
     font-family: 'Lato', sans-serif;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vw;
+    width: 20vw;
+    margin: 10px;
+    background-size: cover;
+    text-align: center;
+}
+
+#slubne {
+    background-image: url("ia_3000001155.jpg");
+}
+
+#funeral {
+    background-image: url("ia_3000001156.jpg");
+}
+
+#kwiatomat {
+    background-image: url("ia_3000001157.jpg");
+}
+
+#ciete {
+    background-image: url("ia_3000001158.jpg");
 }
