@@ -15,12 +15,31 @@ body{
     flex-wrap: wrap;
     padding:2px;
     margin:0px;
+    position:relative;
 }
 
 .nav-item{
     padding:6px;
     font-family: 'Lato', sans-serif;
+    position:relative;
+    display: inline-block;
+    
 }
+
+.nav-expand{
+display: none;
+flex-direction: column;
+position: absolute;
+background-color: #372d2d2e;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 16px;
+
+} 
+
+.dropdowm-item:hover .nav-expand{
+display:flex;
+} 
 
 a {
     text-decoration: none;
@@ -61,3 +80,4 @@ a {
 #ciete {
     background-image: url("ia_3000001158.jpg");
 }
+
